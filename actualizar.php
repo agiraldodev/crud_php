@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+include 'plantilla.php';
 
 $id = $_POST['id'];
 $nombre = $_POST['nombre'];

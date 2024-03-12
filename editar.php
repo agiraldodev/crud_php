@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+include 'plantilla.php';
 
 $id = $_GET['id'];
 $sql = "SELECT * FROM productos WHERE id=$id";
